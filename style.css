@@ -1,38 +1,88 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-  * {
-    margin: 0;
-  }
-  html, body {
-    height: 100%;
-  }
-
-  body {
-    line-height: 1.5;
-    max-width: 90rem;
-    min-height: 100vh;
-    margin: 0 auto;
-    padding: 1rem;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 20px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  input, button, textarea, select {
-    font: inherit;
-  }
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  max-width: 90rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 
 :root {
-    --primary-blue: hsl(223, 87%, 63%);
-    --secondary-pale_blue: hsl(223, 100%, 88%);
-    --secondary--lightred: hsl(354, 100%, 66%);
-    --neutral-gray: hsl(0, 0%, 59%);
-    --neutral-very_dark_blue: hsl(209, 33%, 12%);
+  --primary-blue: hsl(223, 87%, 63%);
+  --secondary-pale_blue: hsl(223, 100%, 88%);
+  --secondary--lightred: hsl(354, 100%, 66%);
+  --neutral-gray: hsl(0, 0%, 59%);
+  --neutral-very_dark_blue: hsl(209, 33%, 12%);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+h1 {
+  font-weight: 300;
+  color: var(--neutral-gray);
+}
+
+h1 span {
+  font-weight: 700;
+  color: var(--neutral-very_dark_blue);
+}
+
+.top{
+  text-align: center;
+}
+
+.top img {
+  margin: auto;
+  margin-block: 2rem;
+}
+
+.top p {
+  margin-block: 1rem;
+  margin-block-end: 2.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width: 60rem) {
+ 
+}
