@@ -10,6 +10,8 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
+Live: https://approved4me.github.io/FM-ping-coming-soon-page/
+
 ## The challenge
 
 Your challenge is to build out this Coming Soon page and get it looking as close to the design as possible.
