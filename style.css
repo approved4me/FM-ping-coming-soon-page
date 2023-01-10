@@ -52,6 +52,7 @@ main {
   max-width: 40rem;
   margin: auto;
 }
+
 h1 {
   font-weight: 300;
   color: var(--neutral-gray);
@@ -62,7 +63,7 @@ h1 span {
   color: var(--neutral-very_dark_blue);
 }
 
-.top{
+.top {
   text-align: center;
 }
 
@@ -88,7 +89,7 @@ h1 span {
   border: none;
 }
 
-.email::placeholder{
+.email::placeholder {
   color: var(--secondary-pale_blue);
 }
 
@@ -108,30 +109,42 @@ h1 span {
 
 .dashboard img {
   margin: auto;
+  margin-block: 3rem;
 }
 
-.social ul{
+.social ul {
   display: flex;
   list-style-type: none;
   justify-content: center;
   gap: 2rem;
+  margin-block-end: 2rem;
 }
 
-.social li{
-    width: 3rem;
-    height: 3rem;
-    padding: 2rem;
-    border: 2px solid rgba(24, 23, 23, 0.2);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.social i {
+.social a {
+  width: 1rem;
+  height: 1rem;
+  padding: 1.3rem;
+  outline: 2px solid rgba(24, 23, 23, 0.1 );
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--primary-blue);
-  font-size: 2rem;
-  }
+  transition: 0.250s linear;
+  font-size: 1.5rem;
+}
+
+.social a:hover {
+  color: #fff;
+  background-color: var(--primary-blue);
+  outline: none;
+}
+
+.social p {
+  text-align: center;
+  font-size: 0.825rem;
+  color: var(--neutral-gray);
+}
 
 .attribution {
   font-size: 11px;
@@ -145,6 +158,4 @@ h1 span {
 
 /* MEDIA QUERY */
 
-@media only screen and (min-width: 60rem) {
- 
-}
+@media only screen and (min-width: 60rem) {}
