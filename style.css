@@ -47,6 +47,10 @@ select {
   --neutral-very_dark_blue: hsl(209, 33%, 12%);
 }
 
+main {
+  max-width: 40rem;
+  margin: auto;
+}
 h1 {
   font-weight: 300;
   color: var(--neutral-gray);
@@ -104,6 +108,29 @@ h1 span {
 .dashboard img {
   margin: auto;
 }
+
+.social ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social li{
+    width: 3rem;
+    height: 3rem;
+    padding: 2rem;
+    border: 1px solid var(--neutral-gray);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social i {
+  color: var(--primary-blue);
+  font-size: 2rem;
+  }
 
 .attribution {
   font-size: 11px;
