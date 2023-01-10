@@ -71,6 +71,40 @@ h1 span {
   margin-block-end: 2.5rem;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  border-radius: 100vw;
+  padding: 1rem 3rem;
+  outline: 1px solid var(--secondary-pale_blue);
+  border: none;
+}
+
+.email::placeholder{
+  color: var(--secondary-pale_blue);
+}
+
+.submit {
+  margin-block: 1rem;
+  border: none;
+  border-radius: 100vw;
+  padding: 1rem;
+  background-color: var(--primary-blue);
+  color: #fff;
+  font-weight: 600;
+}
+
+.dashboard {
+  margin-top: 5rem;
+}
+
+.dashboard img {
+  margin: auto;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
