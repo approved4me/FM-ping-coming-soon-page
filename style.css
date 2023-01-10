@@ -84,7 +84,8 @@ h1 span {
 
 .email {
   border-radius: 100vw;
-  padding: 1rem 3rem;
+  padding-block: 1rem;
+  padding-inline: 3rem;
   outline: 1px solid var(--secondary-pale_blue);
   border: none;
 }
@@ -112,6 +113,10 @@ h1 span {
   margin-block: 3rem;
 }
 
+.social {
+  margin-block: 2rem;
+}
+
 .social ul {
   display: flex;
   list-style-type: none;
@@ -124,13 +129,13 @@ h1 span {
   width: 1rem;
   height: 1rem;
   padding: 1.3rem;
-  outline: 2px solid rgba(24, 23, 23, 0.1 );
+  outline: 2px solid rgba(24, 23, 23, 0.1);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--primary-blue);
-  transition: 0.250s linear;
+  transition: 0.3s linear;
   font-size: 1.5rem;
 }
 
@@ -158,4 +163,31 @@ h1 span {
 
 /* MEDIA QUERY */
 
-@media only screen and (min-width: 60rem) {}
+@media only screen and (min-width: 60rem) {
+
+  .form {
+    flex-direction: row;
+    }
+
+    .email {
+      flex: 1;
+    }
+
+    .submit {
+      padding: 1rem 3rem;
+      margin-left: 1rem;
+      margin-block: 0;
+      transition: 0.3s linear;
+    }
+
+    .submit:hover {
+      background-color: hsl(223, 85%, 75%);
+    }
+
+    h1 {
+      font-size: 3rem;
+      
+    }
+    
+    
+  }
