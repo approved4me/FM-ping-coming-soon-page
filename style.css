@@ -104,6 +104,12 @@ h1 span {
   font-weight: 600;
 }
 
+.email_invalid {
+  visibility: hidden;
+  align-self: center;
+  margin-right: 0.7rem;
+}
+
 .dashboard {
   margin-top: 5rem;
 }
