@@ -104,12 +104,9 @@ h1 span {
   font-weight: 600;
 }
 
-.email_invalid {
-  visibility: hidden;;
-}
-
-#error {
-  text-align: center;
+.error {
+  display: none;
+  text-align: left;
   padding-left: 3rem;
   padding-top: 0.5rem;
   color: var(--secondary--lightred);
@@ -198,9 +195,8 @@ h1 span {
     }
 
     h1 {
-      font-size: 3rem;
-      
+      font-size: 3rem; 
     }
-    
+   
     
   }
