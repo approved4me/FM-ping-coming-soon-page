@@ -116,7 +116,6 @@ h1 span {
 .error {
   display: none;
   text-align: center;
-  padding-left: 3rem;
   padding-top: 0.5rem;
   color: var(--secondary--lightred);
   font-size: 1rem;
@@ -211,6 +210,6 @@ h1 span {
 
     .error {
       text-align: left;
-   
-    
+      padding-left: 3rem;
+    }
   }
